@@ -1,0 +1,22 @@
+2e) 
+3%: 768 Days
+6%: 390 Days
+9%: 263 Days
+
+2f) In two or three sentences, describe what is wrong with this strict percentage increase
+model of zombie growth in the limits of a large and a small number of zombies. This
+problem is mathematically equivalent to several chemical engineering problems; for
+example, the amount of a compound formed in an autocatalytic reaction as a function of
+time, or the growth of bacteria or yeast in a fermenter. But zombies are more fun. Grrarll
+
+In real life situations the growth rate is not constant for the entirety of the duration. 
+Factors such as limited space/resources/materials and in this case, carrying capacity (food + space?) 
+would decrease the growth rate over time.
+
+3c) Note that I did not specify the value of xcurr that you start with. What are the requirements
+for the starting value so that we eventually converge to the square root? What strategy did
+you use to figure this out? Write the answers in the .pdf file HW1_textsolution.
+
+It seems like any positive value would work (excluding 0). If a negative value is used then the function would compute the 
+right value but negative. For example, if a = 4 and the guesss was -2, the function would output -4. Also, if a 0 was used as a guess,
+the function would take a long time to execute. For my computer it was not able to execute the function.
